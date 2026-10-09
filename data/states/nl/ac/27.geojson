@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "id": "NL-AC-27",
+  "properties": {
+    "stateName": "NAGALAND",
+    "stateCode": "NL",
+    "districtName": "MOKOKCHUNG",
+    "acNo": 27,
+    "acName": "Mokokchung Town",
+    "seatType": null,
+    "pcNo": 1,
+    "pcName": "NAGALAND",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [94.54253, 26.33431],
+        [94.54029, 26.32447],
+        [94.52134, 26.30919],
+        [94.51043, 26.30302],
+        [94.49964, 26.30591],
+        [94.49419, 26.31923],
+        [94.50335, 26.33657],
+        [94.54253, 26.33431]
+      ]
+    ]
+  }
+}

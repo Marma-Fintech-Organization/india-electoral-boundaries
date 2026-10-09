@@ -1,0 +1,32 @@
+{
+  "type": "Feature",
+  "id": "GA-AC-30",
+  "properties": {
+    "stateName": "GOA",
+    "stateCode": "GA",
+    "districtName": "SOUTH GOA",
+    "acNo": 30,
+    "acName": "Fatorda",
+    "seatType": null,
+    "pcNo": 2,
+    "pcName": "SOUTH GOA",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [73.96767, 15.30197],
+        [73.98893, 15.29515],
+        [73.99409, 15.28172],
+        [73.94584, 15.29363],
+        [73.94559, 15.29552],
+        [73.95993, 15.30417],
+        [73.96767, 15.30197]
+      ]
+    ]
+  }
+}

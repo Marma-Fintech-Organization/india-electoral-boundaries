@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "id": "TN-AC-17",
+  "properties": {
+    "stateName": "TAMIL NADU",
+    "stateCode": "TN",
+    "districtName": "CHENNAI",
+    "acNo": 17,
+    "acName": "Royapuram",
+    "seatType": null,
+    "pcNo": 2,
+    "pcName": "CHENNAI NORTH",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [80.26973, 13.10935],
+        [80.28186, 13.11454],
+        [80.28594, 13.12176],
+        [80.29466, 13.11735],
+        [80.30081, 13.12117],
+        [80.3008, 13.1212],
+        [80.3054, 13.1098],
+        [80.3038, 13.1057],
+        [80.3015, 13.1121],
+        [80.29821, 13.10192],
+        [80.29292, 13.09996],
+        [80.27799, 13.10409],
+        [80.27269, 13.09966],
+        [80.26973, 13.10935]
+      ]
+    ]
+  }
+}

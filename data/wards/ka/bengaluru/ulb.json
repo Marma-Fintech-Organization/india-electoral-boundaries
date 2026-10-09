@@ -1,0 +1,12 @@
+{
+  "cityCode": "BBMP",
+  "name": "Bengaluru",
+  "corporation": "Bruhat Bengaluru Mahanagara Palike (BBMP)",
+  "stateCode": "KA",
+  "backendFile": "ka.wards.geojson",
+  "wardCount": 369,
+  "delimitation": "369 wards across 5 corporations",
+  "sources": [
+    "TBD"
+  ]
+}

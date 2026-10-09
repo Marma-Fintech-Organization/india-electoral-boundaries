@@ -1,0 +1,33 @@
+name: Boundary is wrong
+description: Report a constituency or ward boundary that is incorrect or out of date
+title: "[Boundary] <STATE>-AC-<number>: "
+labels: ["boundary", "needs-evidence"]
+body:
+  - type: input
+    id: feature
+    attributes:
+      label: Constituency or ward
+      description: State code and number, e.g. TN-AC-124, or city and ward number
+      placeholder: TN-AC-124
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Which part of the boundary is wrong, and where should it be?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link or attach an official source (Delimitation order, ECI map, gazette notification, municipal map). Do not use Google Maps or other proprietary maps.
+    validations:
+      required: true
+  - type: checkboxes
+    id: pr
+    attributes:
+      label: Contribution
+      options:
+        - label: I'd like to open a pull request with the fix myself

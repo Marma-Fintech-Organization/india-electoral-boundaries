@@ -1,0 +1,93 @@
+name: Publish
+
+# Runs after a pull request is merged. Requires:
+#   Environment "production" (add required reviewers to gate publishing)
+#   Secrets: R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY,
+#            GEO_R2_BUCKET_NAME, BACKEND_SYNC_TOKEN (fine-grained PAT with
+#            contents + pull-requests write on the backend repo)
+#   Variables: GEO_R2_PREFIX (default geo/v2), GEO_R2_PUBLIC_URL,
+#              BACKEND_REPO (e.g. your-org/whistlingcitizen-BE)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "scripts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run validate
+
+      - name: Build and bump versions of changed states
+        run: npm run build:bump
+
+      - name: Upload changed files to the CDN
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          GEO_R2_BUCKET_NAME: ${{ secrets.GEO_R2_BUCKET_NAME }}
+          GEO_R2_PREFIX: ${{ vars.GEO_R2_PREFIX || 'geo/v2' }}
+          GEO_R2_PUBLIC_URL: ${{ vars.GEO_R2_PUBLIC_URL }}
+        run: npm run publish:cdn
+
+      - name: Commit version bumps
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898332+github-actions[bot]@users.noreply.github.com"
+          git add data/meta.json data/states/*/state.json data/states/*/districts.json
+          if git diff --cached --quiet; then
+            echo "No version changes."
+          else
+            git commit -m "chore: bump data versions [skip ci]"
+            git push
+          fi
+
+      - name: Check out backend
+        if: vars.BACKEND_REPO != ''
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ vars.BACKEND_REPO }}
+          token: ${{ secrets.BACKEND_SYNC_TOKEN }}
+          path: backend
+
+      - name: Copy build output into backend
+        if: vars.BACKEND_REPO != ''
+        run: npm run sync:backend -- --backend backend
+
+      - name: Open backend pull request
+        if: vars.BACKEND_REPO != ''
+        uses: peter-evans/create-pull-request@v7
+        with:
+          path: backend
+          token: ${{ secrets.BACKEND_SYNC_TOKEN }}
+          branch: geo-data-sync
+          delete-branch: true
+          commit-message: "chore(geo): sync boundary data from india-electoral-boundaries"
+          title: "chore(geo): sync boundary data"
+          body: |
+            Automated sync from ${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}.
+            The CDN has already been updated; this keeps backend point lookups in step with the map.

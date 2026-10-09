@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "id": "AP-AC-50",
+  "properties": {
+    "stateName": "ANDHRA PRADESH",
+    "stateCode": "AP",
+    "districtName": "EAST GODAVARI",
+    "acNo": 50,
+    "acName": "RAJAHMUNDRY CITY",
+    "seatType": null,
+    "pcNo": null,
+    "pcName": null,
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [81.77474, 17.00176],
+        [81.76904, 16.99703],
+        [81.7656, 17.00403],
+        [81.76923, 17.01555],
+        [81.7671, 17.03158],
+        [81.77579, 17.02929],
+        [81.78355, 17.03648],
+        [81.79877, 17.02459],
+        [81.80322, 17.0106],
+        [81.78709, 16.9952],
+        [81.77474, 17.00176]
+      ]
+    ]
+  }
+}

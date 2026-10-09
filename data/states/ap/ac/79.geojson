@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "id": "AP-AC-79",
+  "properties": {
+    "stateName": "ANDHRA PRADESH",
+    "stateCode": "AP",
+    "districtName": "NTR",
+    "acNo": 79,
+    "acName": "VIJAYAWADA WEST",
+    "seatType": null,
+    "pcNo": null,
+    "pcName": null,
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [80.58892, 16.5171],
+        [80.59005, 16.53131],
+        [80.59739, 16.5472],
+        [80.6095, 16.54077],
+        [80.61507, 16.54351],
+        [80.61881, 16.55146],
+        [80.6164, 16.55314],
+        [80.61902, 16.55316],
+        [80.64328, 16.54443],
+        [80.63512, 16.52426],
+        [80.62328, 16.49731],
+        [80.5908, 16.51266],
+        [80.58892, 16.5171]
+      ]
+    ]
+  }
+}

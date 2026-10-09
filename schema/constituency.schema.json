@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "constituency.schema.json",
+  "title": "Assembly constituency",
+  "description": "One assembly constituency: data/states/{code}/ac/{acNo}.geojson",
+  "type": "object",
+  "required": ["type", "id", "properties", "geometry"],
+  "additionalProperties": false,
+  "properties": {
+    "type": { "const": "Feature" },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}-AC-[1-9][0-9]*$",
+      "description": "{STATE}-AC-{acNo}, e.g. TN-AC-1"
+    },
+    "properties": {
+      "type": "object",
+      "required": [
+        "stateCode",
+        "stateName",
+        "districtName",
+        "acNo",
+        "acName",
+        "seatType",
+        "pcNo",
+        "pcName",
+        "quality",
+        "sources"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "stateCode": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "stateName": {
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "districtName": {
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "acNo": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "acName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "seatType": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "description": "Reservation, e.g. GEN, SC, ST"
+        },
+        "pcNo": {
+          "type": ["integer", "null"],
+          "minimum": 1
+        },
+        "pcName": {
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "hasMapInset": {
+          "type": "boolean",
+          "description": "Feature is drawn in an inset on the official map"
+        },
+        "insetLabel": {
+          "type": "string",
+          "minLength": 1
+        },
+        "nonTerritorial": {
+          "type": "boolean",
+          "description": "Seat without a territorial boundary (e.g. Sikkim Sangha)"
+        },
+        "quality": {
+          "enum": ["unverified", "community-reviewed", "matches-official-map"]
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "geometry": { "$ref": "geometry.schema.json" }
+  }
+}

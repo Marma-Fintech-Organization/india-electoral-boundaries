@@ -1,0 +1,34 @@
+{
+  "type": "Feature",
+  "id": "MN-AC-32",
+  "properties": {
+    "stateName": "MANIPUR",
+    "stateCode": "MN",
+    "districtName": "SENAPATI",
+    "acNo": 32,
+    "acName": "Wangkhem",
+    "seatType": null,
+    "pcNo": 1,
+    "pcName": "INNER MANIPUR",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [94.08474, 24.70823],
+        [94.09974, 24.70458],
+        [94.08895, 24.69354],
+        [94.08301, 24.69185],
+        [94.07928, 24.68675],
+        [94.07296, 24.68755],
+        [94.07338, 24.6937],
+        [94.07517, 24.70607],
+        [94.08474, 24.70823]
+      ]
+    ]
+  }
+}

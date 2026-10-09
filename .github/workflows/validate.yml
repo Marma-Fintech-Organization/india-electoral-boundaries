@@ -1,0 +1,39 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Schema, naming and consistency checks
+        run: npm run validate
+
+      - name: Geometry checks on changed constituencies
+        if: github.event_name == 'pull_request'
+        run: npm run validate:geometry -- --base origin/${{ github.base_ref }}
+
+      - name: Build
+        run: npm run build

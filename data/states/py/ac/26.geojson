@@ -1,0 +1,34 @@
+{
+  "type": "Feature",
+  "id": "PY-AC-26",
+  "properties": {
+    "stateName": "PUDUCHERRY",
+    "stateCode": "PY",
+    "districtName": "KARAIKAL",
+    "acNo": 26,
+    "acName": "Karaikal North",
+    "seatType": null,
+    "pcNo": 1,
+    "pcName": "PONDICHERRY",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [79.85426, 10.96459],
+        [79.85259, 10.92338],
+        [79.83017, 10.92546],
+        [79.81181, 10.93704],
+        [79.80729, 10.94614],
+        [79.80529, 10.95014],
+        [79.8114, 10.95084],
+        [79.81054, 10.9627],
+        [79.85426, 10.96459]
+      ]
+    ]
+  }
+}

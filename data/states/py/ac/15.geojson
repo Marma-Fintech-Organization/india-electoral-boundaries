@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "id": "PY-AC-15",
+  "properties": {
+    "stateName": "PUDUCHERRY",
+    "stateCode": "PY",
+    "districtName": "PONDICHERRY",
+    "acNo": 15,
+    "acName": "Oupalam",
+    "seatType": null,
+    "pcNo": 1,
+    "pcName": "PONDICHERRY",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [79.8242, 11.92868],
+        [79.82714, 11.92825],
+        [79.83496, 11.92709],
+        [79.83177, 11.91678],
+        [79.81333, 11.92001],
+        [79.81634, 11.92516],
+        [79.81654, 11.92532],
+        [79.8242, 11.92868]
+      ]
+    ]
+  }
+}

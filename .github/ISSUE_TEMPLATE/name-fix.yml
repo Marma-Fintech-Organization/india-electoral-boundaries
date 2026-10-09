@@ -1,0 +1,36 @@
+name: Name or field fix
+description: A constituency, district or parliamentary constituency name is wrong or missing
+title: "[Name] <STATE>-AC-<number>: "
+labels: ["names"]
+body:
+  - type: input
+    id: feature
+    attributes:
+      label: Constituency
+      placeholder: TN-AC-124
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field
+      description: acName, districtName, pcNo, pcName, seatType, ...
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Current value
+  - type: input
+    id: correct
+    attributes:
+      label: Correct value
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to an official list (ECI, state election commission, gazette)
+    validations:
+      required: true

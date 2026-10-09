@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "id": "AP-AC-80",
+  "properties": {
+    "stateName": "ANDHRA PRADESH",
+    "stateCode": "AP",
+    "districtName": "NTR",
+    "acNo": 80,
+    "acName": "VIJAYAWADA CENTRAL",
+    "seatType": null,
+    "pcNo": null,
+    "pcName": null,
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [80.64249, 16.55663],
+        [80.64675, 16.56276],
+        [80.66016, 16.55974],
+        [80.65795, 16.54708],
+        [80.67998, 16.54249],
+        [80.67652, 16.52684],
+        [80.68006, 16.52492],
+        [80.67793, 16.52139],
+        [80.68165, 16.51582],
+        [80.63512, 16.52426],
+        [80.64328, 16.54443],
+        [80.64657, 16.55358],
+        [80.64249, 16.55663]
+      ]
+    ]
+  }
+}

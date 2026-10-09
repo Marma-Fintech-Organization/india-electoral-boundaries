@@ -1,0 +1,11 @@
+{
+  "cityCode": "COIMBATORE",
+  "name": "Coimbatore",
+  "corporation": "Coimbatore City Municipal Corporation",
+  "stateCode": "TN",
+  "backendFile": "coimbatore.wards.geojson",
+  "wardCount": 100,
+  "sources": [
+    "TBD"
+  ]
+}

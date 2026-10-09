@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ward.schema.json",
+  "title": "City wards",
+  "description": "All wards of one city: data/wards/{state}/{city}/wards.geojson. Personal data (phone, email, address) is not allowed.",
+  "type": "object",
+  "required": ["type", "features"],
+  "additionalProperties": false,
+  "properties": {
+    "type": { "const": "FeatureCollection" },
+    "features": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["type", "properties", "geometry"],
+        "additionalProperties": false,
+        "properties": {
+          "type": { "const": "Feature" },
+          "properties": {
+            "type": "object",
+            "required": ["wardNumber", "wardName"],
+            "additionalProperties": false,
+            "properties": {
+              "wardNumber": { "type": "integer", "minimum": 1 },
+              "wardName": { "type": ["string", "null"], "minLength": 1 },
+              "wardNameKn": { "type": "string", "minLength": 1 },
+              "slNo": { "type": "integer" },
+              "wardId": { "type": "integer" },
+              "bbmpWardNumber": { "type": "integer" },
+              "zoneNumber": { "type": "integer" },
+              "zoneName": { "type": "string", "minLength": 1 },
+              "corporationId": { "type": "integer" },
+              "corporation": { "type": "string", "minLength": 1 },
+              "corporationKn": { "type": "string", "minLength": 1 },
+              "acNo": { "type": "integer", "minimum": 1 },
+              "acName": { "type": "string", "minLength": 1 },
+              "acNameKn": { "type": "string", "minLength": 1 },
+              "townName": { "type": "string", "minLength": 1 },
+              "lgdCode": {
+                "type": "integer",
+                "description": "Local Government Directory ward code"
+              }
+            }
+          },
+          "geometry": { "$ref": "geometry.schema.json" }
+        }
+      }
+    }
+  }
+}

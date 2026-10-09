@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "id": "AP-AC-23",
+  "properties": {
+    "stateName": "ANDHRA PRADESH",
+    "stateCode": "AP",
+    "districtName": "VISAKHAPATNAM",
+    "acNo": 23,
+    "acName": "VISHAKAPATNAM NORTH",
+    "seatType": null,
+    "pcNo": null,
+    "pcName": null,
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [83.24256, 17.75104],
+        [83.24757, 17.75377],
+        [83.26674, 17.75204],
+        [83.26871, 17.74757],
+        [83.27295, 17.75014],
+        [83.27307, 17.74639],
+        [83.29268, 17.74167],
+        [83.28782, 17.72562],
+        [83.26581, 17.71828],
+        [83.2384, 17.72638],
+        [83.24256, 17.75104]
+      ]
+    ]
+  }
+}

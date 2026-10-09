@@ -1,0 +1,35 @@
+{
+  "type": "Feature",
+  "id": "RJ-AC-53",
+  "properties": {
+    "stateName": "RAJASTHAN",
+    "stateCode": "RJ",
+    "districtName": "JAIPUR",
+    "acNo": 53,
+    "acName": "Adarsh Nagar",
+    "seatType": null,
+    "pcNo": 7,
+    "pcName": "JAIPUR",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [75.84192, 26.94564],
+        [75.86634, 26.94095],
+        [75.87798, 26.92991],
+        [75.83651, 26.92587],
+        [75.83094, 26.92957],
+        [75.8268, 26.93203],
+        [75.83536, 26.93569],
+        [75.82307, 26.93879],
+        [75.82826, 26.94569],
+        [75.84192, 26.94564]
+      ]
+    ]
+  }
+}

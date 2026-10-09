@@ -1,0 +1,11 @@
+{
+  "cityCode": "CHENNAI",
+  "name": "Chennai",
+  "corporation": "Greater Chennai Corporation",
+  "stateCode": "TN",
+  "backendFile": "chennai.wards.geojson",
+  "wardCount": 200,
+  "sources": [
+    "TBD"
+  ]
+}

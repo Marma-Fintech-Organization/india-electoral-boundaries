@@ -1,0 +1,34 @@
+{
+  "type": "Feature",
+  "id": "TR-AC-9",
+  "properties": {
+    "stateName": "TRIPURA",
+    "stateCode": "TR",
+    "districtName": "WEST TRIPURA",
+    "acNo": 9,
+    "acName": "BANAMALIPUR",
+    "seatType": null,
+    "pcNo": 1,
+    "pcName": "TRIPURA WEST",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [91.29633, 23.8524],
+        [91.30527, 23.84744],
+        [91.30452, 23.83819],
+        [91.29478, 23.8255],
+        [91.27484, 23.82719],
+        [91.27522, 23.83539],
+        [91.28488, 23.83686],
+        [91.28775, 23.84847],
+        [91.29633, 23.8524]
+      ]
+    ]
+  }
+}

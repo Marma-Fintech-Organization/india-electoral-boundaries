@@ -1,0 +1,20 @@
+{
+  "description": "Validation errors that existed at import and are accepted until someone fixes them. They are reported as warnings. When you fix one, remove it from this list.",
+  "issues": [
+    {
+      "file": "data/states/an/ac/1.geojson",
+      "message": "constituency extends outside the state outline",
+      "note": "The Andaman and Nicobar outline covers only a small part of the islands (around 12.3 to 12.9 N); the outline needs replacing."
+    },
+    {
+      "file": "data/states/dh/ac/2.geojson",
+      "message": "constituency extends outside the state outline",
+      "note": "The DNH and DD outline doesn't include Diu (around 70.9 E)."
+    },
+    {
+      "file": "data/states/sk/ac/32.geojson",
+      "message": "constituency extends outside the state outline",
+      "note": "Sangha is a non-territorial seat; its placeholder geometry lies west of Sikkim and should be replaced."
+    }
+  ]
+}

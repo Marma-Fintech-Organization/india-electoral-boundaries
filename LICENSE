@@ -1,0 +1,19 @@
+LICENSE: TO BE DETERMINED - DO NOT PUBLISH THIS REPOSITORY YET
+
+The data in `data/` is derived from several upstream open datasets. Its
+license depends on the licenses of those sources, which are still being
+verified (see SOURCES.md).
+
+Until this file is replaced with the final license:
+
+  - The data in `data/` must not be redistributed.
+  - This repository must stay private.
+
+Planned structure once sources are verified:
+
+  - Data in `data/`: licensed under the license required by the most
+    restrictive upstream source (for example ODbL 1.0 if any source is
+    ODbL, otherwise CC BY 4.0), with the upstream attributions listed in
+    SOURCES.md. Full texts in LICENSES/.
+  - Code in `scripts/` and `.github/`: MIT License (LICENSES/MIT.txt).
+  - Documentation: CC BY 4.0.

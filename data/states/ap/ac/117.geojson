@@ -1,0 +1,41 @@
+{
+  "type": "Feature",
+  "id": "AP-AC-117",
+  "properties": {
+    "stateName": "ANDHRA PRADESH",
+    "stateCode": "AP",
+    "districtName": "SRI POTTI SRIRAMULU NELLORE",
+    "acNo": 117,
+    "acName": "NELLORE CITY",
+    "seatType": null,
+    "pcNo": null,
+    "pcName": null,
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [79.97014, 14.43829],
+        [79.96906, 14.42717],
+        [79.96195, 14.42735],
+        [79.9616, 14.43518],
+        [79.96707, 14.44661],
+        [79.9587, 14.45088],
+        [79.95831, 14.45566],
+        [79.97546, 14.45547],
+        [79.98463, 14.46751],
+        [80.00494, 14.46363],
+        [80.00535, 14.46049],
+        [79.99662, 14.45453],
+        [79.99565, 14.4486],
+        [79.98908, 14.44843],
+        [79.98825, 14.44233],
+        [79.97014, 14.43829]
+      ]
+    ]
+  }
+}

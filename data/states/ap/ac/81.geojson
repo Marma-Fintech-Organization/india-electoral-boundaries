@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "id": "AP-AC-81",
+  "properties": {
+    "stateName": "ANDHRA PRADESH",
+    "stateCode": "AP",
+    "districtName": "NTR",
+    "acNo": 81,
+    "acName": "VIJAYAWADA EAST",
+    "seatType": null,
+    "pcNo": null,
+    "pcName": null,
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [80.67688, 16.48206],
+        [80.66993, 16.48207],
+        [80.66278, 16.4883],
+        [80.65259, 16.48],
+        [80.62328, 16.49731],
+        [80.63512, 16.52426],
+        [80.68165, 16.51582],
+        [80.68324, 16.51539],
+        [80.67146, 16.48893],
+        [80.6774, 16.48615],
+        [80.67688, 16.48206]
+      ]
+    ]
+  }
+}

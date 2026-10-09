@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "GJ-AC-145",
+  "properties": {
+    "stateName": "GUJARAT",
+    "stateCode": "GJ",
+    "districtName": null,
+    "acNo": 145,
+    "acName": "Manjalpur",
+    "seatType": null,
+    "pcNo": 20,
+    "pcName": "VADODARA",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [73.23648, 22.29117],
+        [73.26364, 22.28377],
+        [73.26828, 22.26878],
+        [73.24067, 22.26061],
+        [73.2378, 22.246],
+        [73.2208, 22.23608],
+        [73.21528, 22.22654],
+        [73.17795, 22.22907],
+        [73.17089, 22.25593],
+        [73.18612, 22.25749],
+        [73.1901, 22.29117],
+        [73.23648, 22.29117]
+      ]
+    ]
+  }
+}

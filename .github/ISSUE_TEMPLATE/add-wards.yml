@@ -1,0 +1,30 @@
+name: Add wards for a city
+description: Propose ward boundaries for a city or urban local body that isn't covered yet
+title: "[Wards] <City>, <State>"
+labels: ["wards"]
+body:
+  - type: input
+    id: city
+    attributes:
+      label: City / urban local body
+      placeholder: Madurai Municipal Corporation, Tamil Nadu
+    validations:
+      required: true
+  - type: input
+    id: count
+    attributes:
+      label: Number of wards
+  - type: textarea
+    id: source
+    attributes:
+      label: Data source and license
+      description: Where do the ward boundaries come from, and under what license? Official municipal data or openly licensed data only.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: The data contains no personal details (phone numbers, emails, home addresses) of councillors or anyone else
+          required: true

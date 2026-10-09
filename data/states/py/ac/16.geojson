@@ -1,0 +1,35 @@
+{
+  "type": "Feature",
+  "id": "PY-AC-16",
+  "properties": {
+    "stateName": "PUDUCHERRY",
+    "stateCode": "PY",
+    "districtName": "PONDICHERRY",
+    "acNo": 16,
+    "acName": "Orleampeth",
+    "seatType": null,
+    "pcNo": 1,
+    "pcName": "PONDICHERRY",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [79.82073, 11.93475],
+        [79.82875, 11.9339],
+        [79.82714, 11.92825],
+        [79.8242, 11.92868],
+        [79.81654, 11.92532],
+        [79.81011, 11.93017],
+        [79.81006, 11.93041],
+        [79.81099, 11.93058],
+        [79.81766, 11.93445],
+        [79.82073, 11.93475]
+      ]
+    ]
+  }
+}

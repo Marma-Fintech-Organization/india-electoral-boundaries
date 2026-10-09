@@ -1,0 +1,35 @@
+{
+  "type": "Feature",
+  "id": "CG-AC-49",
+  "properties": {
+    "stateName": "CHHATTISGARH",
+    "stateCode": "CG",
+    "districtName": "RAIPUR",
+    "acNo": 49,
+    "acName": "Raipur City West",
+    "seatType": null,
+    "pcNo": 8,
+    "pcName": "RAIPUR",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [81.61304, 21.23612],
+        [81.60302, 21.24197],
+        [81.58653, 21.23978],
+        [81.58378, 21.2531],
+        [81.59322, 21.26448],
+        [81.60107, 21.26667],
+        [81.615, 21.25788],
+        [81.62186, 21.26141],
+        [81.63497, 21.24559],
+        [81.61304, 21.23612]
+      ]
+    ]
+  }
+}

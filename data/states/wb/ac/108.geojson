@@ -1,0 +1,34 @@
+{
+  "type": "Feature",
+  "id": "WB-AC-108",
+  "properties": {
+    "stateName": "WEST BENGAL",
+    "stateCode": "WB",
+    "districtName": "NORTH 24 PARGANAS",
+    "acNo": 108,
+    "acName": "BARRACKPUR",
+    "seatType": null,
+    "pcNo": 15,
+    "pcName": "BARRACKPUR",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [88.37906, 22.76268],
+        [88.37986, 22.7561],
+        [88.38646, 22.75381],
+        [88.38532, 22.74127],
+        [88.36165, 22.74184],
+        [88.35917, 22.75116],
+        [88.34795, 22.75948],
+        [88.35878, 22.76459],
+        [88.37906, 22.76268]
+      ]
+    ]
+  }
+}

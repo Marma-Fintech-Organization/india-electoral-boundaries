@@ -1,0 +1,32 @@
+{
+  "type": "Feature",
+  "id": "GJ-AC-48",
+  "properties": {
+    "stateName": "GUJARAT",
+    "stateCode": "GJ",
+    "districtName": null,
+    "acNo": 48,
+    "acName": "Thakkar Bapanagar",
+    "seatType": null,
+    "pcNo": 7,
+    "pcName": "AHMEDABAD EAST",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [72.6574, 23.04651],
+        [72.65519, 23.03989],
+        [72.61875, 23.04554],
+        [72.62251, 23.04904],
+        [72.65674, 23.07415],
+        [72.65608, 23.05099],
+        [72.6574, 23.04651]
+      ]
+    ]
+  }
+}

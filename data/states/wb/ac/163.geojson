@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "id": "WB-AC-163",
+  "properties": {
+    "stateName": "WEST BENGAL",
+    "stateCode": "WB",
+    "districtName": "KOLKATA",
+    "acNo": 163,
+    "acName": "ENTALLY",
+    "seatType": null,
+    "pcNo": 24,
+    "pcName": "KOLKATA UTTAR",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [88.3974, 22.55082],
+        [88.38812, 22.54323],
+        [88.38372, 22.5322],
+        [88.38142, 22.53649],
+        [88.37591, 22.53599],
+        [88.37187, 22.54962],
+        [88.36576, 22.54958],
+        [88.36612, 22.55344],
+        [88.36511, 22.55472],
+        [88.36915, 22.56437],
+        [88.3974, 22.55082]
+      ]
+    ]
+  }
+}

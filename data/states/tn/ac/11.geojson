@@ -1,0 +1,39 @@
+{
+  "type": "Feature",
+  "id": "TN-AC-11",
+  "properties": {
+    "stateName": "TAMIL NADU",
+    "stateCode": "TN",
+    "districtName": "CHENNAI",
+    "acNo": 11,
+    "acName": "Dr.Radhakrishnan Naga",
+    "seatType": null,
+    "pcNo": 2,
+    "pcName": "CHENNAI NORTH",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [80.28186, 13.11454],
+        [80.26973, 13.10935],
+        [80.27194, 13.12345],
+        [80.2681, 13.12659],
+        [80.27341, 13.13931],
+        [80.28632, 13.14599],
+        [80.301, 13.143],
+        [80.2979, 13.135],
+        [80.3063, 13.1303],
+        [80.3008, 13.1212],
+        [80.30081, 13.12117],
+        [80.29466, 13.11735],
+        [80.28594, 13.12176],
+        [80.28186, 13.11454]
+      ]
+    ]
+  }
+}

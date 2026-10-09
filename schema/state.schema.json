@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "state.schema.json",
+  "title": "State / UT metadata",
+  "description": "data/states/{code}/state.json. Versions and contentHash are maintained by `npm run build:bump`; don't edit them by hand.",
+  "type": "object",
+  "required": [
+    "regionCode",
+    "name",
+    "acCount",
+    "indexVersion",
+    "manifestVersion",
+    "contentHash"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "regionCode": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "name": { "type": "string", "minLength": 1 },
+    "acCount": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Expected number of assembly constituencies"
+    },
+    "indexVersion": { "type": "integer", "minimum": 1 },
+    "manifestVersion": { "type": "integer", "minimum": 1 },
+    "contentHash": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "Feature",
+  "id": "PY-AC-13",
+  "properties": {
+    "stateName": "PUDUCHERRY",
+    "stateCode": "PY",
+    "districtName": "PONDICHERRY",
+    "acNo": 13,
+    "acName": "Muthialpet",
+    "seatType": null,
+    "pcNo": 1,
+    "pcName": "PONDICHERRY",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [79.82993, 11.95766],
+        [79.83887, 11.95607],
+        [79.83838, 11.94746],
+        [79.83435, 11.94896],
+        [79.83281, 11.94181],
+        [79.82468, 11.9395],
+        [79.82993, 11.95766]
+      ]
+    ]
+  }
+}

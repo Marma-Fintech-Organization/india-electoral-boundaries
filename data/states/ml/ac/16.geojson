@@ -1,0 +1,32 @@
+{
+  "type": "Feature",
+  "id": "ML-AC-16",
+  "properties": {
+    "stateName": "MEGHALAYA",
+    "stateCode": "ML",
+    "districtName": "EAST KHASI HILLS",
+    "acNo": 16,
+    "acName": "East Shillong (ST)",
+    "seatType": null,
+    "pcNo": 1,
+    "pcName": "SHILLONG (ST)",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [91.92804, 25.60713],
+        [91.93262, 25.59637],
+        [91.92883, 25.58483],
+        [91.91547, 25.57137],
+        [91.89492, 25.59539],
+        [91.91692, 25.6129],
+        [91.92804, 25.60713]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "MN-AC-20",
+  "properties": {
+    "stateName": "MANIPUR",
+    "stateCode": "MN",
+    "districtName": "IMPHAL EAST",
+    "acNo": 20,
+    "acName": "langthabal",
+    "seatType": null,
+    "pcNo": 1,
+    "pcName": "INNER MANIPUR",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [93.9901, 24.74887],
+        [93.99183, 24.72802],
+        [93.97168, 24.72536],
+        [93.97227, 24.71329],
+        [93.9671, 24.71242],
+        [93.96517, 24.7066],
+        [93.94683, 24.70798],
+        [93.94287, 24.71936],
+        [93.94909, 24.74386],
+        [93.95647, 24.74049],
+        [93.9667, 24.75347],
+        [93.9901, 24.74887]
+      ]
+    ]
+  }
+}

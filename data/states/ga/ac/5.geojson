@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "id": "GA-AC-5",
+  "properties": {
+    "stateName": "GOA",
+    "stateCode": "GA",
+    "districtName": "NORTH GOA",
+    "acNo": 5,
+    "acName": "Mapusa",
+    "seatType": null,
+    "pcNo": 1,
+    "pcName": "NORTH GOA",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [73.8337, 15.60762],
+        [73.82688, 15.59222],
+        [73.81036, 15.58029],
+        [73.7981, 15.57831],
+        [73.79645, 15.58836],
+        [73.80189, 15.60936],
+        [73.81386, 15.62438],
+        [73.8337, 15.60762]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "id": "MN-AC-3",
+  "properties": {
+    "stateName": "MANIPUR",
+    "stateCode": "MN",
+    "districtName": "IMPHAL EAST",
+    "acNo": 3,
+    "acName": "Khurai",
+    "seatType": null,
+    "pcNo": 1,
+    "pcName": "INNER MANIPUR",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [94.0367, 24.88282],
+        [94.03326, 24.84432],
+        [94.02464, 24.83778],
+        [94.0164, 24.83595],
+        [94.01381, 24.8306],
+        [94.01437, 24.81301],
+        [94.0101, 24.8069],
+        [93.99902, 24.80212],
+        [93.99881, 24.82257],
+        [94.00652, 24.8444],
+        [94.00293, 24.85381],
+        [94.00677, 24.86009],
+        [94.0367, 24.88282]
+      ]
+    ]
+  }
+}

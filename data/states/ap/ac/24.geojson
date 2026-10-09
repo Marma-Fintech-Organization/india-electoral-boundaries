@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "AP-AC-24",
+  "properties": {
+    "stateName": "ANDHRA PRADESH",
+    "stateCode": "AP",
+    "districtName": "VISAKHAPATNAM",
+    "acNo": 24,
+    "acName": "Visakhapatnam West",
+    "seatType": null,
+    "pcNo": null,
+    "pcName": null,
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [83.2363, 17.66757],
+        [83.21902, 17.6846],
+        [83.22458, 17.70256],
+        [83.22093, 17.70961],
+        [83.23166, 17.72317],
+        [83.23549, 17.72207],
+        [83.2384, 17.72638],
+        [83.26581, 17.71828],
+        [83.26287, 17.71179],
+        [83.25256, 17.70044],
+        [83.24566, 17.66846],
+        [83.2363, 17.66757]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "meta.schema.json",
+  "title": "Dataset metadata",
+  "description": "data/meta.json. Maintained by `npm run build:bump`.",
+  "type": "object",
+  "required": ["manifestVersion", "generatedAt", "indiaOutline"],
+  "additionalProperties": false,
+  "properties": {
+    "manifestVersion": { "type": "integer", "minimum": 1 },
+    "generatedAt": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z$"
+    },
+    "indiaOutline": {
+      "type": "object",
+      "required": ["version", "contentHash"],
+      "additionalProperties": false,
+      "properties": {
+        "version": { "type": "integer", "minimum": 1 },
+        "contentHash": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "TN-AC-15",
+  "properties": {
+    "stateName": "TAMIL NADU",
+    "stateCode": "TN",
+    "districtName": "CHENNAI",
+    "acNo": 15,
+    "acName": "Thiru-Vi-Ka-Nagar(SC)",
+    "seatType": null,
+    "pcNo": 2,
+    "pcName": "CHENNAI NORTH",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [80.2592, 13.09863],
+        [80.2621, 13.0929],
+        [80.24843, 13.08969],
+        [80.2441, 13.08467],
+        [80.24023, 13.08673],
+        [80.24141, 13.09625],
+        [80.24305, 13.11274],
+        [80.25273, 13.1093],
+        [80.26973, 13.10935],
+        [80.27269, 13.09966],
+        [80.27303, 13.09629],
+        [80.2592, 13.09863]
+      ]
+    ]
+  }
+}

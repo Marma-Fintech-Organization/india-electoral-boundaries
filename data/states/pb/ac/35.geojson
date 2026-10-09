@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "PB-AC-35",
+  "properties": {
+    "stateName": "PUNJAB",
+    "stateCode": "PB",
+    "districtName": "JALANDHAR",
+    "acNo": 35,
+    "acName": "Jalandhar Central",
+    "seatType": null,
+    "pcNo": 4,
+    "pcName": "JALANDHAR (SC)",
+    "quality": "unverified",
+    "sources": [
+      "TBD"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [75.66226, 31.33643],
+        [75.66348, 31.31872],
+        [75.65785, 31.31114],
+        [75.6621, 31.31108],
+        [75.66304, 31.30342],
+        [75.65907, 31.29476],
+        [75.6283, 31.29618],
+        [75.61892, 31.29712],
+        [75.61437, 31.29025],
+        [75.59682, 31.31959],
+        [75.61692, 31.33395],
+        [75.66226, 31.33643]
+      ]
+    ]
+  }
+}

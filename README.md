@@ -124,8 +124,11 @@ npm run sync:backend      # writes into BACKEND_REPO_DIR; review and commit ther
 
 ## License and attribution
 
-See [LICENSE](LICENSE) and [SOURCES.md](SOURCES.md). The data is derived from several open sources; their attribution requirements apply to this dataset too.
+- **Data** (`data/`) and documentation: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). You may use it commercially; give credit and share adapted versions under the same license.
+- **Code** (`scripts/`, `schema/`, workflows): [MIT](LICENSES/MIT.txt).
+
+The data is derived from the open datasets listed in [SOURCES.md](SOURCES.md); their attribution requirements apply too. See [LICENSE](LICENSE) for details.
 
 When using this data, please credit:
 
-> Boundary data: India Electoral Boundaries contributors (Whistling Citizen), derived from the sources listed in SOURCES.md.
+> Boundary data: India Electoral Boundaries contributors (Whistling Citizen), CC BY-SA 4.0, derived from the sources listed in SOURCES.md.

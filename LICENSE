@@ -1,19 +1,27 @@
-LICENSE: TO BE DETERMINED - DO NOT PUBLISH THIS REPOSITORY YET
+India Electoral Boundaries
+Copyright (c) 2026 Whistling Citizen and India Electoral Boundaries contributors
 
-The data in `data/` is derived from several upstream open datasets. Its
-license depends on the licenses of those sources, which are still being
-verified (see SOURCES.md).
+This repository contains data and code under different licenses.
 
-Until this file is replaced with the final license:
+Data (everything under data/)
+  Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+  https://creativecommons.org/licenses/by-sa/4.0/
+  Full text: LICENSES/CC-BY-SA-4.0.txt
 
-  - The data in `data/` must not be redistributed.
-  - This repository must stay private.
+  You may share and adapt the data, including commercially, provided you
+  give credit and release adapted versions under the same license.
+  Suggested credit:
+    Boundary data: India Electoral Boundaries contributors (Whistling
+    Citizen), CC BY-SA 4.0, derived from the sources listed in SOURCES.md.
 
-Planned structure once sources are verified:
+  The data is derived from third-party datasets listed in SOURCES.md.
+  Their attribution requirements apply in addition to the above.
 
-  - Data in `data/`: licensed under the license required by the most
-    restrictive upstream source (for example ODbL 1.0 if any source is
-    ODbL, otherwise CC BY 4.0), with the upstream attributions listed in
-    SOURCES.md. Full texts in LICENSES/.
-  - Code in `scripts/` and `.github/`: MIT License (LICENSES/MIT.txt).
-  - Documentation: CC BY 4.0.
+Documentation (*.md files, .github/ templates)
+  CC BY-SA 4.0, as above.
+
+Code (scripts/, schema/, .github/workflows/, package.json)
+  MIT License. Full text: LICENSES/MIT.txt
+
+Boundaries in this dataset are for civic and informational use. They are
+not an authoritative depiction of India's international or state borders.

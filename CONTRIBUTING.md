@@ -43,7 +43,7 @@ Boundary changes must cite a source, for example:
 
 ## Allowed and forbidden sources
 
-**Allowed:** official government publications, your own local knowledge, and openly licensed data compatible with this repository's license (list it in your pull request so it can be added to [SOURCES.md](SOURCES.md)).
+**Allowed:** official government publications, your own local knowledge, and openly licensed data compatible with CC BY-SA 4.0, such as CC0, CC BY, CC BY-SA or GODL-India (list it in your pull request so it can be added to [SOURCES.md](SOURCES.md)). ODbL data, including OpenStreetMap, is **not** compatible.
 
 **Forbidden:** tracing or copying from Google Maps, Bing Maps, Apple Maps, MapmyIndia or any other proprietary map or imagery whose license doesn't allow it. A single contaminated contribution can make the whole dataset unusable, so these pull requests will be closed.
 
@@ -51,7 +51,7 @@ Boundary changes must cite a source, for example:
 
 ## Sign your commits (DCO)
 
-By contributing you certify the [Developer Certificate of Origin](https://developercertificate.org/): you have the right to submit the data under this repository's license. Sign each commit:
+By contributing you certify the [Developer Certificate of Origin](https://developercertificate.org/): you have the right to submit your contribution under this repository's licenses (CC BY-SA 4.0 for data and docs, MIT for code). Sign each commit:
 
 ```bash
 git commit -s -m "Fix boundary of TN-AC-124"

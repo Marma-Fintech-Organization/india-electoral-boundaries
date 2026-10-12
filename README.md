@@ -111,6 +111,8 @@ State outlines (`outline.geojson`) and `india-outline.geojson` are source files,
 
 ### Publishing (maintainers)
 
+See [PUBLISHING.md](PUBLISHING.md) for the full flow, including how the app updates only changed files.
+
 Merging to `main` runs `.github/workflows/publish.yml`: it bumps the versions of changed states (`npm run build:bump`), uploads only changed files to the CDN (`npm run publish:cdn`), commits the version bumps, and opens a pull request on the backend repo with the regenerated lookup files (`npm run sync:backend`). The workflow header lists the secrets and variables it needs.
 
 To do the same by hand, copy `.env.example` to `.env` and run:

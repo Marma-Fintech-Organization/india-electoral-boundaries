@@ -4,67 +4,67 @@
   "districts": [
     {
       "name": "ANJAW",
-      "acNos": [18]
+      "acNos": [45]
     },
     {
       "name": "CHANGLANG",
-      "acNos": [7, 9, 10, 33, 36]
+      "acNos": [49, 50, 51, 52, 53]
     },
     {
       "name": "DIBANG VALLEY",
-      "acNos": [3]
+      "acNos": [41]
     },
     {
       "name": "EAST KAMENG",
-      "acNos": [4, 11, 41, 51, 52]
+      "acNos": [8, 9, 10, 11, 12]
     },
     {
       "name": "EAST SIANG",
-      "acNos": [31, 39, 43, 44, 45]
+      "acNos": [35, 36, 37, 38, 39]
     },
     {
       "name": "KURUNG KUMEY",
-      "acNos": [24, 40, 42, 53]
+      "acNos": [18, 19, 20, 21]
     },
     {
       "name": "LOHIT",
-      "acNos": [12, 25, 37, 56]
+      "acNos": [44, 46, 47, 48]
     },
     {
       "name": "LOWER DIBANG VALLEY",
-      "acNos": [13, 48]
+      "acNos": [42, 43]
     },
     {
       "name": "LOWER SUBANSIRI",
-      "acNos": [59, 60]
+      "acNos": [16, 17]
     },
     {
       "name": "PAPUM PARE",
-      "acNos": [17, 19, 50]
+      "acNos": [13, 14, 15]
     },
     {
       "name": "TAWANG",
-      "acNos": [29, 34, 55]
+      "acNos": [1, 2, 3]
     },
     {
       "name": "TIRAP",
-      "acNos": [8, 21, 22, 23, 28, 38, 46]
+      "acNos": [54, 55, 56, 57, 58, 59, 60]
     },
     {
       "name": "UPPER SIANG",
-      "acNos": [30, 58]
+      "acNos": [34, 40]
     },
     {
       "name": "UPPER SUBANSIRI",
-      "acNos": [14, 15, 35, 47, 54]
+      "acNos": [22, 23, 24, 25, 26]
     },
     {
       "name": "WEST KAMENG",
-      "acNos": [6, 16, 20, 57]
+      "acNos": [4, 5, 6, 7]
     },
     {
       "name": "WEST SIANG",
-      "acNos": [1, 2, 5, 26, 27, 32, 49]
+      "acNos": [27, 28, 29, 30, 31, 32, 33]
     }
   ],
   "unassigned": []
